@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+.logo{
+    float: left;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+
+}
+header ul{
+    list-style: none;
+}
+
+
+header li{
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: gray;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+header a:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+header p{
+    display: inline;
+}
+
+#segundalinea{
+    border: 1px solid black;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+}
+
+#buscadordiv{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    display: inline;
+    padding: 15px;
+    border-radius: 2em;
+    background-color: orange;
+}
+
+header input{
+    padding: 1em;
+    width: 60%;
+    margin-left: 1em;
+}
+
+header i{
+    background-color: orange;
+    padding: 1em;
+    border-radius: 20%;
+    cursor: pointer;
+}
+    
+main{
+    background-image: url(../img/fondo.webp);
+    background-size: cover;
+    margin-top: 2em;
+    height: 500px;
+    padding-bottom: 5em;
+    }
+
+#divmain1, #divmain2{
+ 
+    display: inline-block;
+    width: 40%;
+    margin-left: 2em;
+}
+
+#divmain1{
+    color: orange;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(12, 0, 0);
+}
+#divmain1 h1{
+    font-size: 28pt;
+}
+
+#divmain1 li{
+    font-size: 18pt;
+}
+
+#divmain2{
+    background-color: white;
+    border-radius: 4%;
+    height: 300px;
+    margin-top: 8em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+}
+
+#divmain2 h2{
+    font-size: 22pt;
+    padding: 1em;
+}
+
+#divmain2 form{
+    font-size: 12pt;
+    margin: 2em;
+    margin-bottom: 4em;
+}
+
+#divmain2 a{
+    background-color: orange;
+    padding: 1em;
+    border-radius: 2em;
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    margin-left: 30%;
+    transition: 0.3s;
+    color: black;
+}
+
+#divmain2 a:hover{
+    color: white;
+    border: solid 1px black;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(47, 47, 139);
+    color: white;
+    padding: 1em;
+    font-size: 14pt;
+}
+
+footer div{
+    display: inline-block; width: 30%;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 1em;
+}
+
+footer h4{
+    font-size: 21pt;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.despedida{
+    padding-top: 2cm;
+}
